@@ -1,0 +1,11 @@
+name: Phone Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check
+        run: echo "GitHub is working"
