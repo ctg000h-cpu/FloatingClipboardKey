@@ -16,7 +16,7 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'platform-tools'
+          packages: 'platform-tools'
           java-version: '17'
 
       - name: Set up Android
