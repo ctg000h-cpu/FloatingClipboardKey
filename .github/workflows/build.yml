@@ -1,5 +1,4 @@
-name: Build Floating COPY APK:
-
+name: Build Floating COPY APK
 on:
   workflow_dispatch:
   push:
